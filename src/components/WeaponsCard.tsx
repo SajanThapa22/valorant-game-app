@@ -1,19 +1,5 @@
-import {
-  Box,
-  Card,
-  Heading,
-  Image,
-  Text,
-  chakra,
-  shouldForwardProp,
-} from "@chakra-ui/react";
+import { Box, Card, Heading, Image } from "@chakra-ui/react";
 import useWeapons, { Weapon } from "../hooks/useWeapons";
-import { motion, isValidMotionProp } from "framer-motion";
-
-const ChakraBox = chakra(motion.div, {
-  shouldForwardProp: (prop) =>
-    isValidMotionProp(prop) || shouldForwardProp(prop),
-});
 
 interface Props {
   weapon: Weapon;

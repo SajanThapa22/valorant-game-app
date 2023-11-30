@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import APIclient from "../services/api-client";
-import { useState } from "react";
 
 export interface AgentData {
   background: string;

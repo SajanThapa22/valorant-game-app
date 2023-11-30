@@ -1,7 +1,7 @@
 import { Box, HStack, Image, Text } from "@chakra-ui/react";
 import Logo from "../assets/valorant-logo.webp";
 import ColorModeSwitch from "./ColorModeSwitch";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
