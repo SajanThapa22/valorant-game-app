@@ -13,7 +13,7 @@ const router = createBrowserRouter([
         element: <CharactersGrid />,
       },
       {
-        path: "weapons",
+        path: "/weapons",
         element: <WeaponsGrid />,
       },
     ],
